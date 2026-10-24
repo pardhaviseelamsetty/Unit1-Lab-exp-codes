@@ -1,0 +1,122 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Stay Hotel</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dream Stay Hotel</h1>
+        <p>Your Comfort, Our Priority</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#booking">Book Now</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to Dream Stay</h2>
+        <p>Enjoy a comfortable and memorable stay with us.</p>
+        <a href="#booking" class="btn">Reserve a Room</a>
+    </section>
+
+    <section id="rooms">
+        <h2 class="section-title">Our Rooms</h2>
+
+        <div class="room-container">
+
+            <div class="room-card">
+                <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600"
+                     alt="Standard hotel room">
+                <h3>Standard Room</h3>
+                <p>Comfortable room for a relaxing stay.</p>
+                <h4>₹2,000 / night</h4>
+            </div>
+
+            <div class="room-card">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600"
+                     alt="Deluxe hotel room">
+                <h3>Deluxe Room</h3>
+                <p>Spacious room with modern facilities.</p>
+                <h4>₹3,500 / night</h4>
+            </div>
+
+            <div class="room-card">
+                <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600"
+                     alt="Luxury hotel room">
+                <h3>Luxury Suite</h3>
+                <p>Premium comfort for a special stay.</p>
+                <h4>₹5,000 / night</h4>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="facilities">
+        <h2 class="section-title">Our Facilities</h2>
+        <div class="facilities">
+            <div>📶 Free Wi-Fi</div>
+            <div>🍽️ Restaurant</div>
+            <div>🏊 Swimming Pool</div>
+            <div>🚗 Free Parking</div>
+            <div>❄️ Air Conditioning</div>
+            <div>🛎️ Room Service</div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2 class="section-title">Book Your Stay</h2>
+
+        <form action="#" method="get">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="checkin">Check-in Date</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <label for="room">Select Room</label>
+            <select id="room" name="room" required>
+                <option value="">Choose a room</option>
+                <option>Standard Room - ₹2,000</option>
+                <option>Deluxe Room - ₹3,500</option>
+                <option>Luxury Suite - ₹5,000</option>
+            </select>
+
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" name="guests"
+                   min="1" max="10" value="1" required>
+
+            <button type="submit">Submit Reservation</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Email: info@dreamstay.example</p>
+        <p>Phone: +91 970****666</p>
+        <p>Address: Vijayawada, Andhra Pradesh</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dream Stay Hotel. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #49302b;
+}
+
+header {
+    background-color: #8e3b46;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #e9a6a6;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #49302b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.banner {
+    background-color: #ffe0dc;
+    text-align: center;
+    padding: 55px 15px;
+}
+
+.banner h2 {
+    margin-bottom: 15px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.product-card {
+    width: 230px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #e4c7c0;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.04);
+}
+
+.product-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin: 12px 0;
+}
+
+.product-card p {
+    margin: 8px 0;
+}
+
+.price {
+    color: #b52f45;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.offers {
+    background-color: #ffe6a7;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.offers h2 {
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #f4d5d0;
+    text-align: center;
+    padding: 30px;
+    line-height: 1.8;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #8e3b46;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .product-card {
+        width: 90%;
+        max-width: 300px;
+    }
+}
